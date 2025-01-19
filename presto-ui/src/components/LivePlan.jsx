@@ -205,7 +205,7 @@ export class LivePlan extends React.Component<LivePlanProps, LivePlanState> {
             });
     }
 
-    static handleStageClick(stageCssId) {
+    static handleStageClick(stageCssId: any) {
        window.open("stage.html?" + stageCssId.target.__data__, '_blank');
     }
 
